@@ -1,6 +1,8 @@
 // tslint:disable:no-any
 import { Constructor, DeceiverFactory, DeceiverMirror } from 'deceiver-core';
 
+export * from 'deceiver-core';
+
 // Sadly those types need to be copied here as jasmine doesn't export them :(
 export interface Spy {
     (...params: any[]): any;
